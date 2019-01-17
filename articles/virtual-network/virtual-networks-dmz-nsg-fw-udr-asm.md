@@ -81,7 +81,7 @@ If there are two identical prefixes in the route table, the following is the ord
 3. “Default” = The System Routes, the local VNet and the static entries as shown in the route table above.
 
 > [!NOTE]
-> You can now use User Defined Routing (UDR) with ExpressRoute and VPN Gateways to force outbound and inbound cross-premise traffic to be routed to a network virtual appliance (NVA).
+> You can now use User Defined Routing (UDR) with ExpressRoute and VPN Gateways to force outbound and inbound cross-premises traffic to be routed to a network virtual appliance (NVA).
 > 
 > 
 
@@ -781,7 +781,7 @@ This PowerShell script should be run locally on an internet connected PC or serv
             Else { Write-Host "The deployment location was found in the network config file." -ForegroundColor Green}}
 
     If ($FatalError) {
-        Write-Host "A fatal error has occured, please see the above messages for more information." -ForegroundColor Red
+        Write-Host "A fatal error has occurred, please see the above messages for more information." -ForegroundColor Red
         Return}
     Else { Write-Host "Validation passed, now building the environment." -ForegroundColor Green}
 

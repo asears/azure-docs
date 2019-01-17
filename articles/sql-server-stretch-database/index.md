@@ -1,8 +1,18 @@
 ---
-layout: LandingPage
+title: Azure SQL Server Stretch Database Documentation - Tutorials | Microsoft Docs
 description: Learn how to use SQL Server Stretch Database to migrate cold data securely to Azure without changing queries or applications. Tutorials and other documentation.
+services: sql-server-stretch-database
+author: czeumault
+manager: carolz
+layout: LandingPage
+ms.assetid: 
+ms.service: sql-server-stretch-database
+ms.tgt_pltfrm: na
+ms.topic: overview
+ms.date: 01/23/2017
+ms.author: carolz
 ---
-#SQL Server Stretch Database Documentation
+# SQL Server Stretch Database Documentation
 
 Learn how to use SQL Server Stretch Database to migrate cold data transparently and securely to the Azure cloud. Tutorials and other documentation help you set up cost-effective availability for databases with infrequently used data without requiring changes to existing queries or applications.
 
@@ -84,11 +94,4 @@ Learn how to use SQL Server Stretch Database to migrate cold data transparently 
 
 ---
 
-<div class="downloadHolder">
-    <a href="https://opbuildstorageprod.blob.core.windows.net/output-pdf-files/en-us/Azure.azure-documents/live/sql-server-stretch-database.pdf">
-        <div class="img"></div>
-        <div class="text">
-            Download SQL Server Stretch Database Documentation
-        </div>
-    </a>
-</div>
+

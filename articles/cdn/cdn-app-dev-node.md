@@ -3,7 +3,7 @@ title: Get started with the Azure CDN SDK for Node.js | Microsoft Docs
 description: Learn how to write Node.js applications to manage Azure CDN.
 services: cdn
 documentationcenter: nodejs
-author: camsoper
+author: zhangmanling
 manager: erikre
 editor: ''
 
@@ -13,8 +13,8 @@ ms.workload: tbd
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 09/15/2016
-ms.author: casoper
+ms.date: 01/23/2017
+ms.author: mazha
 
 ---
 # Get started with Azure CDN development
@@ -336,7 +336,7 @@ function cdnDelete() {
 We can now execute our Node.js program using our favorite debugger or at the console.
 
 > [!TIP]
-> If you're using Visual Studio Code as your debugger, you'll need to set up your environment to pass in the command-line parameters.  Visual Studio Code does this in the **lanuch.json** file.  Look for a property named **args** and add an array of string values for your parameters, so that it looks similar to this:  `"args": ["list", "profiles"]`.
+> If you're using Visual Studio Code as your debugger, you'll need to set up your environment to pass in the command-line parameters.  Visual Studio Code does this in the **launch.json** file.  Look for a property named **args** and add an array of string values for your parameters, so that it looks similar to this:  `"args": ["list", "profiles"]`.
 > 
 > 
 
